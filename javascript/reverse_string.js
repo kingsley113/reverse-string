@@ -1,5 +1,12 @@
 function reverseString(str) {
   // type your code here
+  let reverse = "";
+
+  for (const char of str) {
+    reverse = char + reverse;
+  }
+
+  return reverse;
 }
 
 if (require.main === module) {
